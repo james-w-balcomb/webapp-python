@@ -1,4 +1,6 @@
 
 def webapp_python():
 
-    return "Hello World\n"
+    output = b'Hello World\n'
+
+    return [output]
