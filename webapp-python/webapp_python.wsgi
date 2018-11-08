@@ -1,4 +1,3 @@
-
 import sys
 
 sys.path.insert(0, "/var/www/python/boringbalcomb.com/webapp_python/")

@@ -1,6 +1,6 @@
 
-def webapp_python():
+def webapp_python(environ, start_response):
 
-    output = b'Hello World\n'
+    start_response("200 OK", [("Content-Type", "text/html")])
 
-    return [output]
+    return [b"Hello World\n"]
