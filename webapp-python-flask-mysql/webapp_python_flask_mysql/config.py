@@ -1,0 +1,3 @@
+MYSQL_HOST = "127.0.0.1"
+MYSQL_PORT = 33061
+MYSQL_DB = "hello_world"
